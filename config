@@ -1,0 +1,7 @@
+[user]
+	email = is@pjwstk.edu.pl
+	name = Illia Shkroba
+[core]
+	editor = nvim
+[init]
+	defaultbranch = master
