@@ -5,3 +5,11 @@
 	editor = nvim
 [init]
 	defaultbranch = master
+[alias]
+	c = checkout
+	d = diff
+	ds = diff --staged
+	l = log
+	pf = pull --ff-only
+	r = rebase
+	s = status
