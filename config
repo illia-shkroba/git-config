@@ -12,6 +12,7 @@
 	d = diff
 	ds = diff --staged
 	l = log
+	lp = log --patch
 	pf = pull --ff-only
 	pu = push
 	puf = push --force-with-lease
