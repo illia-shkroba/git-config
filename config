@@ -12,6 +12,7 @@
 	d = diff
 	ds = diff --staged
 	l = log
+	l1 = log --max-count=1
 	lp = log --patch
 	ls = log --stat
 	pf = pull --ff-only
