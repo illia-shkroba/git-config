@@ -7,6 +7,7 @@
 	defaultbranch = master
 [alias]
 	a = add
+	b = branch
 	c = checkout
 	co = commit
 	d = diff
@@ -16,10 +17,9 @@
 	ll = log --max-count=100
 	lp = log --patch
 	ls = log --stat
-	pf = pull --ff-only
 	pu = push
 	puf = push --force-with-lease
-	r = rebase
+	r = reset
 	s = status
 [core]
   pager = delta
@@ -29,4 +29,4 @@
   navigate = true  # use n and N to move between diff sections
   dark = true      # or light = true, or omit for auto-detection
 [merge]
-  conflictstyle = zdiff3
+  conflictstyle = merge
