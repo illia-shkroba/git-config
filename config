@@ -30,3 +30,5 @@
   dark = true      # or light = true, or omit for auto-detection
 [merge]
   conflictstyle = merge
+[pull]
+	rebase = true
